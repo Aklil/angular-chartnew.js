@@ -2,9 +2,9 @@
 A simple AngularJS 1.x directive for ChartNewjs
 
 ## Installation
- - via bower 
+ - via bower : which also installs dependency automatically
 `bower install angular-chartnew.js`
- - include angularjs, chartnewjs and angular-chartnew.js in dist folder in your application
+ - or just include angularjs, chartnewjs and angular-chartnew.js in dist folder in your application
 
 ##Usage
 
