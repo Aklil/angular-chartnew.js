@@ -1,15 +1,19 @@
 # angular-chartnew.js
 A simple AngularJS 1.x directive for ChartNewjs
 
-install via bower
+## Installation
+ 1.via bower 
+`bower install angular-chartnew.js`
+ 2. include angularjs, chartnewjs and angular-chartnew.js in dist folder in your application
 
-bower install angular-chartnew.js
+##Usage
 
-Usage
-
-The directive accepts chartType, chartData and chartOptions
-    Chart type uses '@' for one way text binding, so the chartType is provided on the canvas element as a text.
-    chartData and chartOptions use two way data binding that are passed from a controller then to the view and in turn to the directive.
-    chartData and chartOptions should be provided correctly according to chartnewjs specs for each chartype.
+The directive accepts `chartnewjs-type`, `chartnewjs-data` and `chartnewjs-options`
+   - `chartnewjs-type` uses `@` for one way text binding, so the `chartnewjs-type` is provided on the canvas element as a text.
+   - `chartnewjs-data` and `chartnewjs-options` use two way data binding that are passed from a controller then to the view and in turn to the directive.
+   - `chartnewjs-data` and `chartnewjs-options` should be provided correctly according to chartnewjs specs for each chartype.
 
 Take a look at the demo how the directive is used.
+
+##Credits
+Chartnewjs is a fork of Chartjs : https://github.com/FVANCOP/ChartNew.js/
